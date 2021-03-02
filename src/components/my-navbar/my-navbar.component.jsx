@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from "../../assets/icons/logo.png";
 
-import "./mynavbar.style.css";
+import "./my-navbar.styles.css";
 
 
 const MyNavbar = () => {
@@ -32,3 +32,4 @@ const MyNavbar = () => {
 }
 
 export default MyNavbar;
+
