@@ -11,6 +11,8 @@ import TitleMessage from './components/title-message/title-meesage.component';
 import About from './pages/about/about.component';
 import Experience from './pages/experience/experience.component';
 import ProjectTimeLine from "./components/project-timeline/project-timeline.component";
+import ContactForm from "./pages/contact-form/contact-form.component";
+import FooterPanel from './components/footer/footer.component';
 
 import './App.css';
 
@@ -51,6 +53,15 @@ const App = () => {
             </Slide>
           </Container>
       </div>
+      <div>
+          <Container className="container-box rounded">
+            <Slide duration={500}>
+            <hr />
+              <ContactForm/>
+            </Slide>
+          </Container>
+      </div>
+      <FooterPanel/>
     </div>
   );
 }
