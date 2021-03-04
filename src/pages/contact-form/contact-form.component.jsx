@@ -16,14 +16,14 @@ const ContactForm = () =>{
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="mailto:akjha96@gmail.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+              <a href="mailto:yadla1997@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-danger" title="yadla1997@gmail.com">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/anjali-yadla-863431171/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
