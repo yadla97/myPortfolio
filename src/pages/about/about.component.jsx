@@ -28,7 +28,7 @@ const About = () => {
                                 Hi there! I am <strong>&nbsp;Anjali Yadla</strong>
                                 {/* <br />I am a Master's student at University of Illinois at Chicago. */}
                                 <br />I am a graduate student in the School of University of Illinois, Chicago. I am pursuing a Master of Computer Science degree.
-                                <br />I am broadly interested in Software Development with strong fundamentals in algorithms, dynamic programming, object oriented programming and relational databases.
+                                <br />I am interested in Software Development. I have strong fundamentals in algorithms, dynamic programming, object oriented programming and relational databases.
                                 <br />I worked as a Programmer Analyst with React.js, Express.js, node.js, JavaScript, MongoDB as my tech stack.
                                 <br />
                                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
