@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, UrlButton, ImageEvent,themes, createTheme } from "@merc/react-timeline";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
@@ -9,12 +9,7 @@ import tempImg from '../../assets/img/skills/git-icon.svg'
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+
 
 
 //images
@@ -29,20 +24,32 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 
+const customTheme = createTheme(themes.default, {
+  card: {
+    backgroundColor: '#efefef',
+  },
+  date: {
+    backgroundColor: 'lightcoral',
+  },
+  marker: {
+    borderColor: 'lightcoral',
+  },
+  timelineTrack: {
+    backgroundColor: 'lightblue',
+  },
+});
 const ProjectTimeLine =() =>{
     return (
         <div id="projects">
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-            <Timeline>
+            <Timeline theme={customTheme}>
             <Events>
        
           {/* Project: Customized news reader */}
-       <ImageEvent
+       <ImageEvent 
             date="12/10/2020"
             className="text-center"
             text="Customized News Reader"
@@ -120,7 +127,7 @@ const ProjectTimeLine =() =>{
           </ImageEvent>
           {/* Project: Guessing Game - Android Project */}
        <ImageEvent
-            date="11/15/2020"
+            date ="11/15/2020"
             className="text-center"
             text="Guess Four Android App"
             src={L_ReactToDoList}

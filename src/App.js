@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
-import TitleMessage from './components/title-message/title-meesage.component';
+import TitleMessage from './components/title-message/title-message.component';
 import About from './pages/about/about.component';
 import Experience from './pages/experience/experience.component';
 import ProjectTimeLine from "./components/project-timeline/project-timeline.component";

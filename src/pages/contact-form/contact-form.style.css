@@ -1,7 +1,29 @@
 .contact-jumbotron {
-    /*background-image: url("../../assets/img/background/background.webp");*/
-    background-color: rgb(93, 95, 97);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  /*background-image: url("../../assets/img/background/background.webp");*/
+  background-color: #81aae4;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.g-color {
+  background-color: black;
+  color: white;
+}
+.l-color {
+  background-color: #007BFF;
+  color:white
+}
+.e-color {
+  background-color: #DC3545;
+  color:white
+}
+.fa-github-square{
+  color:white;
+}
+.fa-linkedin{
+  color:white;
+}
+.fa-envelope-square{
+  color:white;
   
+}
+

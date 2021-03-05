@@ -14,7 +14,7 @@ const About = () => {
         <div id="about">
 
             <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+                <h1 className="pt-3 text-center font-details pb-3 color">ABOUT ME</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                         <Col xs={12} md={6}>
@@ -25,16 +25,17 @@ const About = () => {
 
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
-                                Hi there! I am <strong>&nbsp;Anjali Yadla</strong>
-                                {/* <br />I am a Master's student at University of Illinois at Chicago. */}
-                                <br />I am a graduate student in the School of University of Illinois, Chicago. I am pursuing a Master of Computer Science degree.
-                                <br />I am interested in Software Development. I have strong fundamentals in algorithms, dynamic programming, object oriented programming and relational databases.
-                                <br />I worked as a Programmer Analyst with React.js, Express.js, node.js, JavaScript, MongoDB as my tech stack.
-                                <br />
+                                Hi there! I am <strong>&nbsp;Anjali Yadla.</strong>
+                                I am pursuing Masters in Computer Science at<strong>&nbsp;University of </strong><strong>Illinois, Chicago.</strong> 
+                                I am interested in Software Development. I have strong fundamentals in computer algorithms, dynamic programming, object oriented programming and relational databases.
+                                <br />I worked as a Programmer Analyst in Cognizant for 1 year.
+                                
                                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                                <br />
+                                
                                 <br />I love learning about new technologies, what problems are they solving and how can I use them to build better and scalable products.
-                                <br /> <br />
+                                <br />
+                                Outside of computers, I love sketching.
+                                <br/> <br />
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     <div>
                                         <a href="#contact">
