@@ -9,6 +9,8 @@ import tempImg from '../../assets/img/skills/git-icon.svg'
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
+import L_Forkify from '../../assets/img/projects/forkify.png';
+import L_Android from '../../assets/img/projects/android.png';
 
 
 
@@ -29,7 +31,7 @@ import L_GIT from "../../assets/img/skills/github-api.svg";
 
 const customTheme = createTheme(themes.default, {
   card: {
-    backgroundColor: 'lightyellow',
+    backgroundColor: 'lightpink',
   },
   date: {
     backgroundColor: 'lightcoral',
@@ -131,7 +133,7 @@ const ProjectTimeLine = () => {
             date="11/15/2020"
             className="text-center"
             text="Guess Four Android App"
-            src={L_ReactToDoList}
+            src={L_Android}
             alt="Guess Four Android App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
