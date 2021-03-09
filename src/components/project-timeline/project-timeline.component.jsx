@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Events, UrlButton, ImageEvent,themes, createTheme } from "@merc/react-timeline";
+import { Timeline, Events, UrlButton, ImageEvent, themes, createTheme } from "@merc/react-timeline";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
@@ -29,7 +29,7 @@ import L_GIT from "../../assets/img/skills/github-api.svg";
 
 const customTheme = createTheme(themes.default, {
   card: {
-    backgroundColor: '#efefef',
+    backgroundColor: 'lightyellow',
   },
   date: {
     backgroundColor: 'lightcoral',
@@ -41,15 +41,15 @@ const customTheme = createTheme(themes.default, {
     backgroundColor: 'lightblue',
   },
 });
-const ProjectTimeLine =() =>{
-    return (
-        <div id="projects">
-            <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-            <Timeline theme={customTheme}>
-            <Events>
-       
+const ProjectTimeLine = () => {
+  return (
+    <div id="projects">
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+      <Timeline theme={customTheme}>
+        <Events>
+
           {/* Project: Customized news reader */}
-       <ImageEvent 
+          <ImageEvent
             date="12/10/2020"
             className="text-center"
             text="Customized News Reader"
@@ -71,14 +71,15 @@ const ProjectTimeLine =() =>{
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong>Designed a small tool which captures the screenshots from different websites and gets the updated information
-                        every hour                     <hr />
+                        every hour
+                        <br /><br />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Deployed it on Windows server using Amazon EC2</li>
                           <li>There is a task scheduler which runs the PowerShell script every hour</li>
                           <li>News gets updated automatically</li>
                         </ul>
-                        <hr />
+
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
@@ -108,7 +109,7 @@ const ProjectTimeLine =() =>{
                               Task Scheduler
                             </span>
                           </li>
-                          
+
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -117,7 +118,7 @@ const ProjectTimeLine =() =>{
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/yadla97"
+                  href="https://github.com/yadla97/News-Reader"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -126,8 +127,8 @@ const ProjectTimeLine =() =>{
             </div>
           </ImageEvent>
           {/* Project: Guessing Game - Android Project */}
-       <ImageEvent
-            date ="11/15/2020"
+          <ImageEvent
+            date="11/15/2020"
             className="text-center"
             text="Guess Four Android App"
             src={L_ReactToDoList}
@@ -147,10 +148,10 @@ const ProjectTimeLine =() =>{
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>A random guessing game which has 2 players who is guessing each other's choosen numbers 
+                        <strong>Description:</strong>A random guessing game which has 2 players who is guessing each other's choosen numbers
                         each player uses different strategies for the guesses.
                         Used worker threads, handlers, loopers and message queues for designing the application
-                        <hr />
+                        <br /><br />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Two computer players generate a random 4-digit secret code which the other player has to guess</li>
@@ -158,7 +159,7 @@ const ProjectTimeLine =() =>{
                           <li>Optimizing their guess based on response to win the game</li>
                           <li>Responsive Design</li>
                         </ul>
-                        <hr />
+
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
@@ -193,16 +194,108 @@ const ProjectTimeLine =() =>{
               </div>
             </div>
           </ImageEvent>
+          <ImageEvent
+            date="11/15/2020"
+            className="text-center"
+            text="Book Rack Website"
+            src={L_ReactToDoList}
+            alt="Book Rack website"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
 
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>Designed and created the web portal for online book
+                        trading and bug reporting processes
 
-            </Events>
-            </Timeline>
-        </div>
-    )
+                        <br /><br />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>User sign in/sign up</li>
+                          <li>User can rate books</li>
+                          <li>User can add/remove items from cart</li>
+                        </ul>
+
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/yadla97/AndroidDevelopment/tree/main/Guessing%20Game"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+        </Events>
+      </Timeline>
+    </div>
+  )
 }
 
 
 export default ProjectTimeLine;
 
 
-{}

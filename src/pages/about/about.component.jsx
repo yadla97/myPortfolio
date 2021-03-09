@@ -11,10 +11,10 @@ import './about.style.css';
 
 const About = () => {
     return (
-        <div id="about">
+       
 
             <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3 color">ABOUT ME</h1>
+                <h1 className="pt-3 text-center font-details-b pb-3">ABOUT ME</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                         <Col xs={12} md={6}>
@@ -71,7 +71,7 @@ const About = () => {
                     </Row>
                 </Container>
             </div>
-        </div>
+        
     )
 
 }

@@ -25,20 +25,19 @@ return (
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Programmer Analyst</strong>
                     <br />
-                    <strong>Technology:</strong> node.js, JavaScript , HTML, MongoDB, Express.js
+                    <strong>Technology:</strong> node.js, JavaScript , HTML, MongoDB
                     <br />
                     <strong>Duration:</strong> May 2018 - May 2019
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                    <li>A web application developed from scratch using HTML 5, CSS 3, Bootstrap, node.js, express.js and MongoDB as
-                    database on AWS</li>
-                    <li>Developed outstanding responsive layout and used node.js libraries like Mongoose, crypto</li>
-                    <li>This site contains features like sign up, sign in and a list of books that user can rate and add his/her favorite books
-                    to cart</li>
-                    <li>Tech stack: AWS, HTML, CSS, JavaScript, node.js, MongoDB</li>
-                      
-
+                    <li>
+                    Redesigned UI accessibility for Cognizant internal website by fixing HTML, CSS, JavaScript Issues</li>
+                    <li>Built custom dashboard development by displaying various charts like Line, Bar chart and Pie chart to one’s
+                    compliance using Angular</li>
+                    <li> Engineered strongly typed components using React, leveraged Relay store in updating
+                    UI, Reduced code clutter by 70%, and achieved clear flow of data from model to view.
+                    </li>
                     </ul>
                     
                     

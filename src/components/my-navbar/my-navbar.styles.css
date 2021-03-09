@@ -1,10 +1,10 @@
-.logo {
-  width: 25%;
+.bg-light {
+  background-color: #bd979700!important;
 }
-
 .nav-theme {
-  background-color: #101018f8;
+background: transparent;
   font-size: 20px;
+  
 }
 
 .animate-navbar {
