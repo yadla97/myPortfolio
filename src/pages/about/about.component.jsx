@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Profile from '../../assets/img/profile/a.jpg';
 import Button from "react-bootstrap/Button";
-import Pdf from '../../components/my-navbar/Resume_A.pdf';
+import Pdf from '../../components/my-navbar/YA_Resume.pdf';
 
 import './about.style.css';
 

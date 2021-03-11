@@ -11,7 +11,9 @@ import tempImg from '../../assets/img/skills/git-icon.svg'
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
 import L_Forkify from '../../assets/img/projects/forkify.png';
 import L_Android from '../../assets/img/projects/android.png';
-
+import L_Hotel from '../../assets/img/projects/L_HOTEL.jpeg'
+import L_News from '../../assets/img/projects/news_reader.webp';
+import L_Book from '../../assets/img/projects/book.png';
 
 
 //images
@@ -55,7 +57,7 @@ const ProjectTimeLine = () => {
             date="12/10/2020"
             className="text-center"
             text="Customized News Reader"
-            src={L_ReactToDoList}
+            src={L_News}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -72,7 +74,7 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>Designed a small tool which captures the screenshots from different websites and gets the updated information
+                        <strong>Description:</strong>A tool which captures the screenshots from different websites and gets the updated information
                         every hour
                         <br /><br />
                         <strong>Features:</strong>
@@ -197,10 +199,10 @@ const ProjectTimeLine = () => {
             </div>
           </ImageEvent>
           <ImageEvent
-            date="11/15/2020"
+            date="12/13/2019"
             className="text-center"
             text="Book Rack Website"
-            src={L_ReactToDoList}
+            src={L_Book}
             alt="Book Rack website"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -272,6 +274,108 @@ const ProjectTimeLine = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               MongoDB
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/yadla97/AndroidDevelopment/tree/main/Guessing%20Game"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          <ImageEvent
+            date="08/19/2020"
+            className="text-center"
+            text="Hotel booking system"
+            src={L_Hotel}
+            alt="Hotel booking system"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>Developed and implemented Restful API for a web application that
+                         interacts with users in the process of booking a hotel room end-to-end using HTML5, CSS3, Bootstrap, 
+                         JSTL. Designed microservices using spring-boot that provides the desired functionalities
+                         like book a room, cancel a reservation.
+                         Used hibernate as back-end framework which reduces database code substantially
+
+
+                        <br /><br />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>User sign up/ sign in</li>
+                          <li>Set Location and Browse hotels</li>
+                          <li>Set preferences and book a room</li>
+                          
+                        </ul>
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="Html5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="BootStrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              BootStrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              JSTL
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              Spring-boot
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              Hibernate
                             </span>
                           </li>
                         </ul>

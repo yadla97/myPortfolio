@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from "../../assets/icons/logo.png";
-import Pdf from './Resume_A.pdf';
+import Pdf from './YA_Resume.pdf';
 
 import "./my-navbar.styles.css";
 
