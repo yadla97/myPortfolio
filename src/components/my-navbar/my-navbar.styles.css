@@ -1,5 +1,5 @@
 .bg-light {
-  background-color: #bd979700!important;
+  background-color: rgb(53, 52, 52)!important;
 }
 .nav-theme {
 background: transparent;
@@ -8,7 +8,7 @@ background: transparent;
 }
 
 .animate-navbar {
-  box-shadow: 1px 1px 1px #222;
+  box-shadow: 1px 1px 1px rgb(80, 58, 58);
   animation: moveDown 0.5s ease-in-out;
 }
 
@@ -19,4 +19,12 @@ background: transparent;
   to {
     transform: translateY(0rem);
   }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 100%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:cornflowerblue;
 }

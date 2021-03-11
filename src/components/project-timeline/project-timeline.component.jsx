@@ -33,13 +33,13 @@ import L_GIT from "../../assets/img/skills/github-api.svg";
 
 const customTheme = createTheme(themes.default, {
   card: {
-    backgroundColor: 'lightpink',
+    backgroundColor: '#0505331f',
   },
   date: {
-    backgroundColor: 'lightcoral',
+    backgroundColor: '#7a89ce',
   },
   marker: {
-    borderColor: 'lightcoral',
+    borderColor: '#7a89ce',
   },
   timelineTrack: {
     backgroundColor: 'lightblue',
