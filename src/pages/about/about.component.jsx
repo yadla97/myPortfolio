@@ -13,7 +13,7 @@ const About = () => {
     return (
        
 
-            <div className="about">
+            <div id="about">
                 <h1 className="pt-3 text-center font-details-b pb-3">ABOUT ME</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">

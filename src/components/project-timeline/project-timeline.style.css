@@ -1,3 +1,4 @@
+
 .accordian-main {
   cursor: pointer;
   display: inline-block;
@@ -21,4 +22,6 @@
 .image-style1 {
   width: 3em;
 }
-
+.url-button{
+  background-color: #7a89ce!important;
+}

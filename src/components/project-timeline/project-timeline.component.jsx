@@ -43,7 +43,8 @@ const customTheme = createTheme(themes.default, {
   },
   timelineTrack: {
     backgroundColor: 'lightblue',
-  },
+  }
+ 
 });
 const ProjectTimeLine = () => {
   return (
@@ -120,8 +121,8 @@ const ProjectTimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
+              <div className="d-flex justify-content-between flex-nowrap text-center ">
+                <UrlButton style={{backgroundColor:"pink"}}
                   href="https://github.com/yadla97/News-Reader"
                   target="_blank"
                 >
