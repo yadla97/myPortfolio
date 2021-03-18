@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.5a49b74e.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.251aedc7.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.251aedc7.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.7338afc8.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.bfa80509.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.bfa80509.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.4531d270.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.4531d270.js.map",
     "static/js/2.0eb7ccf5.chunk.js": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js",
     "static/js/2.0eb7ccf5.chunk.js.map": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "static/css/main.5a49b74e.chunk.css.map": "/myPortfolio/static/css/main.5a49b74e.chunk.css.map",
+    "static/css/main.7338afc8.chunk.css.map": "/myPortfolio/static/css/main.7338afc8.chunk.css.map",
     "static/js/2.0eb7ccf5.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js.LICENSE.txt",
     "static/media/PowerShell.72744793.svg": "/myPortfolio/static/media/PowerShell.72744793.svg",
     "static/media/React_ToDo_List.1767548b.webp": "/myPortfolio/static/media/React_ToDo_List.1767548b.webp",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.4531d270.js",
     "static/js/2.0eb7ccf5.chunk.js",
-    "static/css/main.5a49b74e.chunk.css",
-    "static/js/main.251aedc7.chunk.js"
+    "static/css/main.7338afc8.chunk.css",
+    "static/js/main.bfa80509.chunk.js"
   ]
 }

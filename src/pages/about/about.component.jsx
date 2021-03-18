@@ -26,7 +26,7 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 Hi there! I am <strong>&nbsp;Anjali Yadla.</strong>
-                                I am pursuing Masters in Computer Science at<strong>&nbsp;University of </strong><strong>Illinois, Chicago.</strong> 
+                                I am pursuing Masters in Computer Science at<strong>&nbsp;University of Illinois, Chicago.</strong> 
                                 I am interested in Software Development. I have strong fundamentals in computer algorithms, dynamic programming, object oriented programming and relational databases.
                                 <br />I worked as a Programmer Analyst in Cognizant for 1 year.
                                 
