@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.7338afc8.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.e245df7a.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.e245df7a.chunk.js.map",
+    "main.js": "/myPortfolio/static/js/main.35e1d85f.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.35e1d85f.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.4531d270.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.4531d270.js.map",
-    "static/js/2.0eb7ccf5.chunk.js": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js",
-    "static/js/2.0eb7ccf5.chunk.js.map": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js.map",
+    "static/js/2.9ce1940a.chunk.js": "/myPortfolio/static/js/2.9ce1940a.chunk.js",
+    "static/js/2.9ce1940a.chunk.js.map": "/myPortfolio/static/js/2.9ce1940a.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
     "static/css/main.7338afc8.chunk.css.map": "/myPortfolio/static/css/main.7338afc8.chunk.css.map",
-    "static/js/2.0eb7ccf5.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.0eb7ccf5.chunk.js.LICENSE.txt",
+    "static/js/2.9ce1940a.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.9ce1940a.chunk.js.LICENSE.txt",
     "static/media/PowerShell.72744793.svg": "/myPortfolio/static/media/PowerShell.72744793.svg",
     "static/media/React_ToDo_List.1767548b.webp": "/myPortfolio/static/media/React_ToDo_List.1767548b.webp",
     "static/media/YA_Resume.970dd3a4.pdf": "/myPortfolio/static/media/YA_Resume.970dd3a4.pdf",
@@ -34,12 +34,13 @@
     "static/media/mongodb.d89a6eeb.svg": "/myPortfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/news_reader.272223c3.webp": "/myPortfolio/static/media/news_reader.272223c3.webp",
     "static/media/nodejs.52cbf9a8.svg": "/myPortfolio/static/media/nodejs.52cbf9a8.svg",
-    "static/media/react.add74742.svg": "/myPortfolio/static/media/react.add74742.svg"
+    "static/media/react.add74742.svg": "/myPortfolio/static/media/react.add74742.svg",
+    "static/media/snake.e130438c.png": "/myPortfolio/static/media/snake.e130438c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4531d270.js",
-    "static/js/2.0eb7ccf5.chunk.js",
+    "static/js/2.9ce1940a.chunk.js",
     "static/css/main.7338afc8.chunk.css",
-    "static/js/main.e245df7a.chunk.js"
+    "static/js/main.35e1d85f.chunk.js"
   ]
 }
