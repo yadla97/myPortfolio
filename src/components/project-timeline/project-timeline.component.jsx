@@ -14,6 +14,7 @@ import L_Android from '../../assets/img/projects/android.png';
 import L_Hotel from '../../assets/img/projects/L_HOTEL.jpeg'
 import L_News from '../../assets/img/projects/news_reader.webp';
 import L_Book from '../../assets/img/projects/book.png';
+import L_Snake from '../../assets/img/projects/snake.png';
 
 
 //images
@@ -391,6 +392,97 @@ const ProjectTimeLine = () => {
                   target="_blank"
                 >
                   SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Snake Game */}
+          <ImageEvent
+            date="12/10/2020"
+            className="text-center"
+            text="Snake Game"
+            src={L_Snake}
+            alt="Snake game"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>A variant of snake game 
+                         where the player maneuvers a line which grows in length, with the line itself being a primary obstacle.
+                        <br /><br />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>The snake continually gets longer as it consumes food</li>
+                          <li>The snake reverses the direction if consumes purple food </li>
+                          <li>Application of reverse linked list</li>
+                        </ul>
+
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="Html5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center ">
+                <UrlButton style={{backgroundColor:"pink"}}
+                  href="https://github.com/yadla97/SnakeGame"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton style={{backgroundColor:"pink"}}
+                  href="https://yadla97.github.io/SnakeGame/"
+                  target="_blank"
+                >
+                  PLAY GAME
                 </UrlButton>
               </div>
             </div>
